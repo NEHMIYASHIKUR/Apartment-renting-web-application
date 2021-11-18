@@ -1,0 +1,82 @@
+/* LANDLORD LOGIN*/
+
+section.landlord_login{
+    background-image: url(../images/background_with_animation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #172238;
+    padding: 120px 0px;
+    top: 0;
+    left: 0;
+    bottom: 7px;
+    width: 100%;
+    position : absolute;
+}
+
+section.landlord_login .container
+{
+  position: relative;
+}
+
+
+
+section.landlord_login .top-content h6 ,.input-about-property {
+    font-size: 14px;
+    color: #f5a425;
+    background-color: rgba(250,250,250,0.2);
+    padding: 40px;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+section.landlord_login .top-content h6 em {
+    font-style: normal;
+    font-weight: 600;
+}
+
+section.landlord_login form {
+    background-color: rgba(250,250,250,0.1);
+    padding: 60px 40px;
+    width: 100%;
+    text-align: center;
+}
+
+/* The text inputs*/
+section.landlord_login form input {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(250,250,250,0.1);
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+
+section.landlord_login form::placeholder { color: #fff }
+section.landlord_login form input::placeholder { color: #fff; }
+section.landlord_login form input::placeholder { color: #fff; }
+
+section.landlord_login form button{
+    margin-top: 10px;
+    background-color: #f5a425;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+section.landlord_login {
+    background-color: #d3ab6b;
+    text-align: center;
+}

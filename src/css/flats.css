@@ -1,0 +1,102 @@
+section.list_of_landlords
+{
+    margin-top: 150;
+}
+.search div
+{
+    display: inline-block;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.search
+{
+    margin-top: 100px;
+}
+.search_button
+{
+    margin-top: 10px;
+    /* background-color: #f5a425; */
+    background-color: #dd891a;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.search_button:active 
+{
+    background-color: #f0c810;
+}
+section.flats
+{
+    margin-top: 75px;   
+}
+
+section img
+{
+    width: 400px;
+    height: 300px;
+}
+section img:hover
+{
+   /** transform: scale(1.03); **/
+}
+.apartment_location
+{
+    left: 900px;
+    background-color: #f0c810;
+    text-transform: uppercase;
+    color: #000;
+   /** color: rgba(0,0,0,.6); **/
+    font-size: .8142857143em;
+    margin: 0;
+    letter-spacing: .12em;
+
+    text-align: left;
+    vertical-align: top;
+    padding: 1em .75em;
+    display: table-cell;
+}
+.apartment_location :hover
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.flat_type
+{
+   /** position: absolute; **/
+    left: 900px;
+    background: #b7bac2;
+    text-transform: uppercase;
+    color: rgba(0,0,0,.6);
+    font-size: .8142857143em;
+    margin: 0;
+    letter-spacing: .12em;
+
+    text-align: left;
+    vertical-align: top;
+    padding: 1em .75em;
+    display: table-cell;
+}
+.apartment_price
+{
+   /** position: absolute; **/
+    right: 600px;
+    background: #f0c810;
+    color: #000;
+
+    text-align: left;
+    vertical-align: top;
+    padding: 1em .75em;
+    display: table-cell;
+}
+.price_text
+{    
+     font-size: .7142857143em;
+     letter-spacing: .12em;
+}

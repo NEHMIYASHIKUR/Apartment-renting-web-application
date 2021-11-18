@@ -1,0 +1,190 @@
+section.selected_flat
+{
+    margin-top: 75px; 
+    position: relative;
+
+}
+.d-block
+{
+    width:100%;
+    height:600px;
+   /** object-fit:cover; **/
+    overflow: hidden;
+    position: relative;
+}
+.carousel-indicators li 
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border:3px solid transparent;
+    transition : all 0.2s linear;
+    position: relative;
+}
+.carousel-indicators li.active
+{
+    border-color: #ffffff;
+    transform: scale(1.1);
+}
+.apartment_location_header h1
+{
+    margin: 0 0 .3em;
+    font-size: 3.1875rem;
+}
+.apartment_location_header span
+{
+    color: rgba(45,48,63,.7);
+    font-size: 1.375em;
+    padding-left: 20px;
+}
+.apartment_location_header div
+{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.flat_description_block
+{
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 20px;
+
+}
+.flat_description_block li
+{
+    display: inline-block;
+    padding: 20px;
+}
+section.selected_flat ul
+{
+    display: inline-block;
+}
+.Landlord
+{
+    background: #eec81f;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-align: center;
+
+    /* position:relative;
+    margin-top: 500px; */
+
+    position: absolute; 
+    padding: 2em 0 4em;
+    z-index: 2;
+    margin-left: 100px;
+    margin-top: -100px; 
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.Landlord h2
+{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.Landlord img
+{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border-color: rgb(252, 250, 248);
+    background-position: center;
+    background-size: cover;
+    border:3px solid transparent;
+}
+.Landlord a
+{
+    color: white;
+}
+.more_flats_by_landlord , .Landlord h2 
+{
+    margin-top: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.more_flats_by_landlord:hover
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.boxed
+{
+    border : 1px solid rgb(3, 3, 3);
+    border-width: 3px;
+    width: 900px;
+    font-size: large;  
+    padding: 30px;
+}
+.map
+{
+margin-top: 200px;
+}
+.map h2
+{
+    font-size: 1.625em;
+    margin: 1em 0;
+}
+
+/* Related flats section */
+section.check_also
+{
+    padding-bottom: 100px;
+    padding: 0px 30px 100px 20px;
+}
+section.check_also .item img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+section.check_also .item img:hover
+{
+    transform: scale(1.03);
+}
+section.check_also .item .down-content {
+    padding-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+section.check_also .item{
+    width : 410px;
+}
+section.check_also .item .down-content h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+section.check_also .item .down-content p {
+    margin-bottom: 25px;
+}
+section.check_also .item .down-content li
+{
+    display: inline-block;
+    padding-right: 20px;
+}
+section.check_also .flats_container
+{
+    display: inline-block;
+    padding-right: 50px;
+}
